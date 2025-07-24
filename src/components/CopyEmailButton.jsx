@@ -20,26 +20,26 @@ const CopyEmailButton = () => {
                 whileHover= {{ y:-5 }}
                 whileTap={{ scale: 1.05}}
                 className="relative px-1 py-4 text-sm text-center rounded-full font-extralight bg-primary w-[12rem] cursor-pointer overflow-hidden">
-        <AnimatePresence mode='wait'>        
+        <AnimatePresence mode='wait'>
         {copied ? (
-        <motion.p className='flex items-center justify-center gap-2' 
+        <motion.p className='flex items-center justify-center gap-2'
                     key="copied"
-                    initial={{ opacity: 0, y: -10}} 
-                    animate={{opacity: 1, y: 0}} 
-                    exit={{ opacity: 0, y: -10}} 
+                    initial={{ opacity: 0, y: -10}}
+                    animate={{opacity: 1, y: 0}}
+                    exit={{ opacity: 0, y: -10}}
                     transition={{ duration:0.1, ease:"easeInOut"}}>
-            <img src="src/assets/copy-done.svg" className="w-5" alt="copy icon" />
+            <img src="/assets/logos/copy-done.svg" className="w-5" alt="copy icon" />
             Email has been Copied
         </motion.p>
         ) : (
         <motion.p
         key="copy"
-        className="flex items-center justify-center gap-2" 
-        initial={{ opacity: 0 }} 
+        className="flex items-center justify-center gap-2"
+        initial={{ opacity: 0 }}
         animate={{opacity: 1}}
-        exit={{ opacity: 0}} 
+        exit={{ opacity: 0}}
         transition={{ duration:0.1}}>
-            <img src="/src/assets/copy.svg" className="w-5" alt="copy icon" /> Copy Email Address
+            <img src="/assets/logos/copy.svg" className="w-5" alt="copy icon" /> Copy Email Address
         </motion.p>
         )}
         </AnimatePresence>
