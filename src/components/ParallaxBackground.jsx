@@ -14,7 +14,7 @@ const ParallaxBackground = () => {
             {/* {Background Sky } */}
             <div className="absolute inset-0 w-full h-screen -z-50"
             style={{
-                backgroundImage: "url(/src/assets/sky.jpg)",
+                backgroundImage: "url(/assets/sky.jpg)",
                 backgroundPosition: "bottom",
                 backgroundSize: "cover",
                 }}
@@ -23,41 +23,41 @@ const ParallaxBackground = () => {
             <motion.div
             className="absolute inset-0 -z-40"
             style={{
-                backgroundImage: "url(/src/assets/mountain-3.png)",
+                backgroundImage: "url(/assets/mountain-3.png)",
                 backgroundPosition:"bottom",
                 backgroundSize: "cover",
                 y: mountain3Y,
-            }} 
+            }}
             />
             {/* {planets } */}
-            <motion.div 
+            <motion.div
             className="absolute inset-0 -z-30"
             style={{
-                backgroundImage: "url(/src/assets/planets.png)",
+                backgroundImage: "url(/assets/planets.png)",
                 backgroundPosition:"bottom",
                 backgroundSize: "cover",
                 x: planetsX,
-            }} 
+            }}
             />
             {/* {Mountain Layer 2 } */}
-            <motion.div 
+            <motion.div
                 className="absolute inset-0 -z-20"
                 style={{
-                    backgroundImage: "url(/src/assets/mountain-2.png)",
+                    backgroundImage: "url(/assets/mountain-2.png)",
                     backgroundPosition:"bottom",
                     backgroundSize: "cover",
                     y: mountain2Y,
-                }} 
+                }}
                 />
             {/* {Mountain Layer 1 } */}
-            <motion.div 
+            <motion.div
                 className="absolute inset-0 -z-10"
                 style={{
-                    backgroundImage: "url(/src/assets/mountain-1.png)",
+                    backgroundImage: "url(/assets/mountain-1.png)",
                     backgroundPosition:"bottom",
                     backgroundSize: "cover",
                     y: mountain1Y,
-                }} 
+                }}
                 />
         </div>
     </section>
