@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
+import copyDone from '../assets/logos/copy-done.svg'
+import copy from '../assets/logos/copy.svg'
 
 const CopyEmailButton = () => {
     const [copied, setCopied] = useState(false)
@@ -28,7 +30,7 @@ const CopyEmailButton = () => {
                     animate={{opacity: 1, y: 0}}
                     exit={{ opacity: 0, y: -10}}
                     transition={{ duration:0.1, ease:"easeInOut"}}>
-            <img src="src/assets/logos/copy-done.svg" className="w-5" alt="copy icon" />
+            <img src={copyDone} className="w-5" alt="copy icon" />
             Email has been Copied
         </motion.p>
         ) : (
@@ -39,7 +41,7 @@ const CopyEmailButton = () => {
         animate={{opacity: 1}}
         exit={{ opacity: 0}}
         transition={{ duration:0.1}}>
-            <img src="src/assets/logos/copy.svg" className="w-5" alt="copy icon" /> Copy Email Address
+            <img src={copy} className="w-5" alt="copy icon" /> Copy Email Address
         </motion.p>
         )}
         </AnimatePresence>
