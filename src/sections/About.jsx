@@ -3,7 +3,7 @@ import Card from '../components/Card.jsx'
 import Globe from "../components/globe.jsx"
 import CopyEmailButton from '../components/CopyEmailButton.jsx';
 import Frameworks from '../components/Frameworks.jsx';
-import codingPov from 'src/assets/images/coding-pov.png'
+import codingPov from '../assets/images/coding-pov.png'
 
 
 const About = () => {
