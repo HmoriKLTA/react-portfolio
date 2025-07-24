@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+import { mySocials } from "../constants"
 
 function Navigation() {
   return (
@@ -15,15 +16,22 @@ function Navigation() {
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#work">
-          Work
+        <a className="nav-link" href="#projects">
+          Projects
         </a>
       </li>
-      <li className="nav-li">
+      {/* <li className="nav-li">
         <a className="nav-link" href="#contact">
           Contact
         </a>
-      </li>
+      </li> */}
+      {mySocials.map((social, index) => (
+        <li className="nav-li" key={index}>
+          <a href={social.href}>
+            <img src={social.icon} className="w-5 h-5" alt={social.name} />
+          </a>
+        </li>
+      ))}
     </ul>
   );
 }
@@ -37,7 +45,7 @@ const Navbar = () => {
             href="/"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
-            Hayao
+            Hayao Mori
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}

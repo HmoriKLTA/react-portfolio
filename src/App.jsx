@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar  from "./sections/Navbar.jsx"
 import Hero from "./sections/Hero.jsx"
 import About from "./sections/About.jsx"
+import Projects from "./sections/Projects.jsx"
+import Footer from "./sections/Footer.jsx"
 
 const App = () => {
   return (
@@ -9,21 +11,9 @@ const App = () => {
       <Navbar />   
       <Hero />
       <About />
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
-
-      {/*projects*/}
-      {/*experience*/}
-      {/*testimonials*/}
-      {/*contact*/}
-      {/*footer*/}  
-
-      <div className='text-center text-2xl font-bold mt-10'>Welcome to the React 18 + Vite + Tailwind CSS + TypeScript Template</div>
-      App hello</div>
+      <Projects />
+      <Footer />
+    </div>
   )
 }
 
