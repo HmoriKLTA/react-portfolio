@@ -1,5 +1,4 @@
-import githubIcon from "src/assets/socials/github-original.svg";
-import linkedinIcon from "src/assets/socials/linkedin-original.svg"
+
 export const myProjects = [
     {
       id: 1,
@@ -340,12 +339,12 @@ export const myProjects = [
     {
       name: "Github",
       href: "https://github.com/HmoriKLTA",
-      icon: githubIcon,
+      icon: "src/assets/socials/github-original.svg",
     },
     {
       name: "Linkedin",
       href: "https://www.linkedin.com/in/hayao-mori",
-      icon: linkedinIcon,
+      icon: "src/assets/socials/linkedin-original.svg",
     },
 
   ];
