@@ -3,6 +3,7 @@ import Card from '../components/Card.jsx'
 import Globe from "../components/globe.jsx"
 import CopyEmailButton from '../components/CopyEmailButton.jsx';
 import Frameworks from '../components/Frameworks.jsx';
+import codingPov from 'src/assets/images/coding-pov.png'
 
 
 const About = () => {
@@ -13,7 +14,7 @@ const About = () => {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
             {/* {Grid 1} */}
             <div className="flex items-end grid-default-color grid-1">
-                <img src="src/assets/images/coding-pov.png" className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale[3] md:left-50 md:inset-y lg:scale-[2.5]" alt="" />
+                <img src={codingPov} className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale[3] md:left-50 md:inset-y lg:scale-[2.5]" alt="" />
                 <div className='z-10'>
                     <p className="headtext"> Hi, I'm Hayao Mori</p>
                     <p className='subtext'>Recent Graduate from Le Wagon Tokyo. </p>
