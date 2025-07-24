@@ -59,17 +59,17 @@ export const myProjects = [
       href: "",
       logo: "",
       code: "https://github.com/HmoriKLTA/rails-task-manager",
-      image: "public/assets/project-img/task-manager.png",
+      image: "/assets/project-img/task-manager.png",
       tags: [
         {
           id: 1,
           name: "HTML",
-          path: "public/assets/logos/html5.svg",
+          path: "/assets/logos/html5.svg",
         },
         {
           id: 2,
           name: "CSS",
-          path: "public/assets/logos/css3.svg",
+          path: "/assets/logos/css3.svg",
         },
         {
           id: 3,
@@ -104,17 +104,17 @@ export const myProjects = [
       href: "",
       logo: "",
       code: "https://github.com/HmoriKLTA/rails-stupid-coaching",
-      image: "public/assets/project-img/StupidCoachingApp.png",
+      image: "/assets/project-img/StupidCoachingApp.png",
       tags: [
         {
           id: 1,
           name: "HTML",
-          path: "public/assets/logos/html5.svg",
+          path: "/assets/logos/html5.svg",
         },
         {
           id: 2,
           name: "CSS",
-          path: "public/assets/logos/css3.svg",
+          path: "/assets/logos/css3.svg",
         },
         {
           id: 3,
@@ -149,17 +149,17 @@ export const myProjects = [
       href: "https://hmoriklta.github.io/landing/",
       logo: "",
       code: "https://github.com/HmoriKLTA/landing",
-      image: "public/assets/project-img/Australia-landing-page.png",
+      image: "/assets/project-img/Australia-landing-page.png",
       tags: [
         {
           id: 1,
           name: "HTML",
-          path: "public/assets/logos/html5.svg",
+          path: "/assets/logos/html5.svg",
         },
         {
           id: 2,
           name: "CSS",
-          path: "public/assets/logos/css3.svg",
+          path: "/assets/logos/css3.svg",
         },
         {
           id: 3,
@@ -179,17 +179,17 @@ export const myProjects = [
       href: "https://hmoriklta.github.io/profile/",
       logo: "",
       code: "https://github.com/HmoriKLTA/profile",
-      image: "public/assets/project-img/TetsuNakamuraPhoto.png",
+      image: "/assets/project-img/TetsuNakamuraPhoto.png",
       tags: [
         {
           id: 1,
           name: "HTML",
-          path: "public/assets/logos/html5.svg",
+          path: "/assets/logos/html5.svg",
         },
         {
           id: 2,
           name: "CSS",
-          path: "public/assets/logos/css3.svg",
+          path: "/assets/logos/css3.svg",
         },
         {
           id: 3,
@@ -209,17 +209,17 @@ export const myProjects = [
       href: "",
       logo: "",
       code: "https://github.com/HmoriKLTA/rails-yelp-mvp",
-      image: "public/assets/project-img/Yelp-mvp.png",
+      image: "/assets/project-img/Yelp-mvp.png",
       tags: [
         {
           id: 1,
           name: "HTML",
-          path: "public/assets/logos/html5.svg",
+          path: "/assets/logos/html5.svg",
         },
         {
           id: 2,
           name: "CSS",
-          path: "public/assets/logos/css3.svg",
+          path: "/assets/logos/css3.svg",
         },
         {
           id: 3,
@@ -252,19 +252,19 @@ export const myProjects = [
 
       ],
       href: "https://furniture-rental-app-857715fcf8a3.herokuapp.com/furnitures",
-      logo: "public/assets/project-logo/android-icon-192x192.png",
+      logo: "/assets/project-logo/android-icon-192x192.png",
       code: "https://github.com/HmoriKLTA/furniture-rental-app",
       image: "",
       tags: [
         {
           id: 1,
           name: "HTML",
-          path: "public/assets/logos/html5.svg",
+          path: "/assets/logos/html5.svg",
         },
         {
           id: 2,
           name: "CSS",
-          path: "public/assets/logos/css3.svg",
+          path: "/assets/logos/css3.svg",
         },
         {
           id: 3,
@@ -297,19 +297,19 @@ export const myProjects = [
 
       ],
       href: "https://pawkit-4f8eb10e4858.herokuapp.com/",
-      logo: "public/assets/project-logo/pawkit-orange-logo.png",
+      logo: "/assets/project-logo/pawkit-orange-logo.png",
       code: "https://github.com/HmoriKLTA/pawkit",
-      image: "public/assets/project-img/pawkit.png",
+      image: "/assets/project-img/pawkit.png",
       tags: [
         {
           id: 1,
           name: "HTML",
-          path: "public/assets/logos/html5.svg",
+          path: "/assets/logos/html5.svg",
         },
         {
           id: 2,
           name: "CSS",
-          path: "public/assets/logos/css3.svg",
+          path: "/assets/logos/css3.svg",
         },
         {
           id: 3,
