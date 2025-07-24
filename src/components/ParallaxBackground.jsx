@@ -1,4 +1,5 @@
 import { motion, useScroll, useSpring, useTransform } from 'motion/react';
+import mountain1 from '../assets/background/mountain-1.png';
 
 const ParallaxBackground = () => {
     const { scrollYProgress } = useScroll();
@@ -53,7 +54,7 @@ const ParallaxBackground = () => {
             <motion.div
                 className="absolute inset-0 -z-10"
                 style={{
-                    backgroundImage: "url(src/assets/mountain-1.png)",
+                    backgroundImage: `url(${mountain1})`,
                     backgroundPosition:"bottom",
                     backgroundSize: "cover",
                     y: mountain1Y,
