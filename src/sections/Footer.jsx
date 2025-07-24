@@ -1,4 +1,4 @@
-import { mySocials } from "../constants"
+import { mySocials } from "src/constants/index.js"
 import React from 'react'
 
 const Footer = () => {
@@ -6,7 +6,7 @@ const Footer = () => {
     <section className="flex flex-wrap flex-col items-center justify-center gap-5 pb-3 text-sm text-neutral-400 c-space">
         <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full">
             <div className="flex gap-2">
-                
+
             </div>
         </div>
         <div className="w-full flex justify-center">
