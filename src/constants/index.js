@@ -339,12 +339,12 @@ export const myProjects = [
     {
       name: "Github",
       href: "https://github.com/HmoriKLTA",
-      icon: "/assets/socials/github-original.svg",
+      icon: "/home/h_mori/code/HmoriKLTA/react-portfolio/src/assets/socials/github-original.svg",
     },
     {
       name: "Linkedin",
       href: "https://www.linkedin.com/in/hayao-mori",
-      icon: "/assets/socials/linkedin-original.svg",
+      icon: "src/assets/socials/linkedin-original.svg",
     },
 
   ];
