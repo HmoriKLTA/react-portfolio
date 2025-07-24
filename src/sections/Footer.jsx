@@ -1,4 +1,4 @@
-import { mySocials } from "src/constants/index.js"
+import { mySocials } from "../constants"
 import React from 'react'
 
 const Footer = () => {

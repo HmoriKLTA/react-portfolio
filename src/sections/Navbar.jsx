@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "motion/react";
-import { mySocials } from "src/constants/index.js"
+import { mySocials } from "../constants"
 
 function Navigation() {
   return (

@@ -1,3 +1,5 @@
+import github from "../assets/socials/github-original.svg"
+import linkedin from "../assets/socials/linkedin-original.svg"
 
 export const myProjects = [
     {
@@ -339,12 +341,12 @@ export const myProjects = [
     {
       name: "Github",
       href: "https://github.com/HmoriKLTA",
-      icon: "src/assets/socials/github-original.svg",
+      icon: github,
     },
     {
       name: "Linkedin",
       href: "https://www.linkedin.com/in/hayao-mori",
-      icon: "src/assets/socials/linkedin-original.svg",
+      icon: linkedin,
     },
 
   ];
