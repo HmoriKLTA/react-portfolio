@@ -13,11 +13,11 @@ const ProjectDetails = ({
     closeModal
 }) => {
   return (
-    <div className='fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm'> 
+    <div className='fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm'>
         <motion.div className='relative max-w-2xl border shadow-sm rounded-2lx bg-gradient-to-l from-midnight to-navy border-white/10' initial={{opacity:0, scale:0.5}} animate={{ opacity:1, scale: 1}}>
-            <button onClick= {closeModal} 
+            <button onClick= {closeModal}
                     className="absolute p-2 rounded-sm top-5 right-5 bg-midnight hover:bg-gray-500">
-                <img src="assets/close.svg" className="w-6 h-6"alt="" />
+                <img src="src/assets/logos/close.svg" className="w-6 h-6"alt="" />
             </button>
             <img src={image} className="w-full h-64 object-cover rounded-t 2xl" alt="" />
             <div className="p-5">
@@ -33,10 +33,10 @@ const ProjectDetails = ({
                     <div className='flex gap-3'>
                         {tags.map((tag)=>(
                             <img className="rounded-lg size-10 hover-animation"
-                                key={tag.id} 
-                                src={tag.path} 
+                                key={tag.id}
+                                src={tag.path}
                                 alt={tag.name}
-                                />  
+                                />
                         ))}
                     </div>
                     <div className='flex gap-3'>
@@ -49,12 +49,12 @@ const ProjectDetails = ({
                       <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
                         href={href} >
                             Online
-                        <img src="assets/arrow-up.svg" alt="" className="size-4" href="" />
+                        <img src="src/assets/logos/arrow-up.svg" alt="" className="size-4" href="" />
                       </a>
                     ) : (
                       <span className="inline-flex items-center gap-1 font-medium text-gray-400 cursor-not-allowed">
                         Offline
-                        <img src="assets/arrow-up.svg" alt="" className="size-4 opacity-50" />
+                        <img src="src/assets/logos/arrow-up.svg" alt="" className="size-4 opacity-50" />
                       </span>
                     )}
                     </div>

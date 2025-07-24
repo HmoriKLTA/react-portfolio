@@ -17,7 +17,7 @@ function Navigation() {
       </li>
       <li className="nav-li">
         <a className="nav-link" href="#projects">
-          Projectile vomit
+          Projects
         </a>
       </li>
       {/* <li className="nav-li">

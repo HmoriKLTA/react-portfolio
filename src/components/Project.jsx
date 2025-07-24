@@ -1,8 +1,8 @@
 import ProjectDetails from '../components/ProjectDetails.jsx'
 import { useState } from 'react'
-  
 
-const Project = ({title, description, subDescription, href, image, tags, setPreview, code, logo}) => { 
+
+const Project = ({title, description, subDescription, href, image, tags, setPreview, code, logo}) => {
     const [isHidden, setIsHidden] = useState(false);
   return (
     <>
@@ -16,27 +16,27 @@ const Project = ({title, description, subDescription, href, image, tags, setPrev
         <div className="flex items-end gap-5 mt-2 text-sand">
             {tags.map((tag) => (<span key={tag.id}>
                 <img className="rounded-lg size-10 hover-animation"
-                                key={tag.id} 
-                                src={tag.path} 
+                                key={tag.id}
+                                src={tag.path}
                                 alt={tag.name}
-                                /> 
+                                />
                 </span>))}
         </div>
             <button onClick={() =>setIsHidden(true)}
                     className="ml-auto flex items-end justify-end gap-1 cursor-pointer hover-animation">
                 Read More
-                <img src="assets/arrow-right.svg" alt="" className="w-5"/>
+                <img src="src/assets/arrow-right.svg" alt="" className="w-5"/>
             </button>
         </div>
     <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full" />
     {isHidden && (
-        <ProjectDetails 
-            title={title} 
+        <ProjectDetails
+            title={title}
             logo={logo}
-            description={description} 
-            subDescription={subDescription} 
-            href={href} 
-            image={image} 
+            description={description}
+            subDescription={subDescription}
+            href={href}
+            image={image}
             tags={tags}
             closeModal={() => setIsHidden(false)}
             code={code}
