@@ -7,7 +7,7 @@ import Frameworks from '../components/Frameworks.jsx';
 
 const About = () => {
     const grid2Container = useRef();
-  return ( 
+  return (
     <section className="c-space section-spacing" id="about">
         <h2 className='text-heading'>About Me</h2>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
@@ -31,37 +31,37 @@ const About = () => {
             </p>
             <Card
               style={{ rotate: "0deg", top: "20%", left: "0%" }}
-              image="public/assets/logos/backend.png"
+              image="src/assets/logos/backend.png"
               containerRef={grid2Container}
             />
              <Card
               style={{ rotate: "0deg", top: "20%", left: "60%" }}
-              image="public/assets/logos/ux.png"
+              image="src/assets/logos/ux.png"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-25deg", top: "55%", left: "0%" }}
-              image="public/assets/logos/threejs-original.svg"
+              image="src/assets/logos/threejs-original.svg"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              image="public/assets/logos/python-original.svg"
+              image="src/assets/logos/python-original.svg"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="public/assets/logos/vuejs-original.svg"
+              image="src/assets/logos/vuejs-original.svg"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "0deg", top: "50%", left: "30%" }}
-              image="public/assets/logos/typescript-original.svg"
+              image="src/assets/logos/typescript-original.svg"
               containerRef={grid2Container}
             />
              <Card
               style={{ rotate: "0deg", top: "20%", left: "80%" }}
-              image="public/assets/logos/php-original.svg"
+              image="src/assets/logos/php-original.svg"
               containerRef={grid2Container}
             />
           </div>
