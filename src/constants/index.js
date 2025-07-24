@@ -1,5 +1,5 @@
-import githubIcon from "../assets/src/socials/github-original.svg";
-import linkedinIcon from "../assets/src/socials/linkedin-original.svg"
+import githubIcon from "src/assets/socials/github-original.svg";
+import linkedinIcon from "src/assets/socials/linkedin-original.svg"
 export const myProjects = [
     {
       id: 1,
