@@ -1,3 +1,4 @@
+
 export const myProjects = [
     {
       id: 1,
@@ -5,24 +6,24 @@ export const myProjects = [
       description:
         "A Ruby on Rails application that allows users to create, edit, and delete articles, similar to a simplified version of Wikipedia",
       subDescription: [
-        // 1. What tech stack was used to build. 
+        // 1. What tech stack was used to build.
         "Built using Ruby on Rails.",
- 
+
       ],
       href: "",
       logo: "",
       code: 'https://github.com/HmoriKLTA/rails-wikinimous',
-      image: "public/assets/project-img/Wikinimous.png",
+      image: "/assets/project-img/Wikinimous.png",
       tags: [
         {
           id: 1,
           name: "HTML",
-          path: "public/assets/logos/html5.svg",
+          path: "/assets/logos/html5.svg",
         },
         {
           id: 2,
           name: "CSS",
-          path: "public/assets/logos/css3.svg",
+          path: "/assets/logos/css3.svg",
         },
         {
           id: 3,
@@ -252,7 +253,7 @@ export const myProjects = [
       ],
       href: "https://furniture-rental-app-857715fcf8a3.herokuapp.com/furnitures",
       logo: "public/assets/project-logo/android-icon-192x192.png",
-      code: "https://github.com/HmoriKLTA/furniture-rental-app",  
+      code: "https://github.com/HmoriKLTA/furniture-rental-app",
       image: "",
       tags: [
         {
@@ -333,7 +334,7 @@ export const myProjects = [
       ],
     },
   ];
-  
+
   export const mySocials = [
     {
       name: "Github",
@@ -347,5 +348,3 @@ export const myProjects = [
     },
 
   ];
-  
- 
