@@ -31,37 +31,37 @@ const About = () => {
             </p>
             <Card
               style={{ rotate: "0deg", top: "20%", left: "0%" }}
-              image="src/assets/logos/backend.png"
+              image="assets/logos/backend.png"
               containerRef={grid2Container}
             />
              <Card
               style={{ rotate: "0deg", top: "20%", left: "60%" }}
-              image="src/assets/logos/ux.png"
+              image="/assets/logos/ux.png"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-25deg", top: "55%", left: "0%" }}
-              image="src/assets/logos/threejs-original.svg"
+              image="/assets/logos/threejs-original.svg"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              image="src/assets/logos/python-original.svg"
+              image="/assets/logos/python-original.svg"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="src/assets/logos/vuejs-original.svg"
+              image="/assets/logos/vuejs-original.svg"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "0deg", top: "50%", left: "30%" }}
-              image="src/assets/logos/typescript-original.svg"
+              image="/assets/logos/typescript-original.svg"
               containerRef={grid2Container}
             />
              <Card
               style={{ rotate: "0deg", top: "20%", left: "80%" }}
-              image="src/assets/logos/php-original.svg"
+              image="/assets/logos/php-original.svg"
               containerRef={grid2Container}
             />
           </div>
