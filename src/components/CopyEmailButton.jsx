@@ -28,7 +28,7 @@ const CopyEmailButton = () => {
                     animate={{opacity: 1, y: 0}}
                     exit={{ opacity: 0, y: -10}}
                     transition={{ duration:0.1, ease:"easeInOut"}}>
-            <img src="/assets/logos/copy-done.svg" className="w-5" alt="copy icon" />
+            <img src="src/assets/logos/copy-done.svg" className="w-5" alt="copy icon" />
             Email has been Copied
         </motion.p>
         ) : (
@@ -39,7 +39,7 @@ const CopyEmailButton = () => {
         animate={{opacity: 1}}
         exit={{ opacity: 0}}
         transition={{ duration:0.1}}>
-            <img src="/assets/logos/copy.svg" className="w-5" alt="copy icon" /> Copy Email Address
+            <img src="src/assets/logos/copy.svg" className="w-5" alt="copy icon" /> Copy Email Address
         </motion.p>
         )}
         </AnimatePresence>
