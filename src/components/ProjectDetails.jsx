@@ -1,9 +1,8 @@
 import { motion } from 'motion/react'
 import React from 'react'
 import closeLogo from '../assets/logos/close.svg';
-import { myProjects } from "../constants"
 import { mySocials } from "../constants"
-
+import { socialIcons } from "../constants"
 
 const ProjectDetails = ({
     title,
