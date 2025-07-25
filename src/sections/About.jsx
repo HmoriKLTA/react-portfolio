@@ -4,7 +4,13 @@ import Globe from "../components/globe.jsx"
 import CopyEmailButton from '../components/CopyEmailButton.jsx';
 import Frameworks from '../components/Frameworks.jsx';
 import codingPov from '../assets/images/coding-pov.png'
-
+import backendLogo from '../assets/logos/backend.png';
+import uxLogo from '../assets/logos/ux.png';
+import threejsLogo from '../assets/logos/threejs-original.svg';
+import pythonLogo from '../assets/logos/python-original.svg';
+import vuejsLogo from '../assets/logos/vuejs-original.svg';
+import typescriptLogo from '../assets/logos/typescript-original.svg';
+import phpLogo from '../assets/logos/php-original.svg';
 
 const About = () => {
     const grid2Container = useRef();
@@ -32,37 +38,37 @@ const About = () => {
             </p>
             <Card
               style={{ rotate: "0deg", top: "20%", left: "0%" }}
-              image="src/assets/logos/backend.png"
+              image={backendLogo}
               containerRef={grid2Container}
             />
              <Card
               style={{ rotate: "0deg", top: "20%", left: "60%" }}
-              image="src/assets/logos/ux.png"
+              image={uxLogo}
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-25deg", top: "55%", left: "0%" }}
-              image="src/assets/logos/threejs-original.svg"
+              image={threejsLogo}
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              image="src/assets/logos/python-original.svg"
+              image={pythonLogo}
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="src/assets/logos/vuejs-original.svg"
+              image={vuejsLogo}
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "0deg", top: "50%", left: "30%" }}
-              image="src/assets/logos/typescript-original.svg"
+              image={typescriptLogo}
               containerRef={grid2Container}
             />
              <Card
               style={{ rotate: "0deg", top: "20%", left: "80%" }}
-              image="src/assets/logos/php-original.svg"
+              image={phpLogo}
               containerRef={grid2Container}
             />
           </div>
