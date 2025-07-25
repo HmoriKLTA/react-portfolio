@@ -1,5 +1,7 @@
 import { motion } from 'motion/react'
 import React from 'react'
+import closeLogo from '../assets/logos/close.svg';
+
 
 const ProjectDetails = ({
     title,
@@ -17,7 +19,7 @@ const ProjectDetails = ({
         <motion.div className='relative max-w-2xl border shadow-sm rounded-2lx bg-gradient-to-l from-midnight to-navy border-white/10' initial={{opacity:0, scale:0.5}} animate={{ opacity:1, scale: 1}}>
             <button onClick= {closeModal}
                     className="absolute p-2 rounded-sm top-5 right-5 bg-midnight hover:bg-gray-500">
-                <img src="src/assets/logos/close.svg" className="w-6 h-6"alt="" />
+                <img src={closeLogo} className="w-6 h-6"alt="" />
             </button>
             <img src={image} className="w-full h-64 object-cover rounded-t 2xl" alt="" />
             <div className="p-5">

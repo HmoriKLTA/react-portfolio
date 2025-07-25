@@ -1,5 +1,13 @@
 import github from "../assets/socials/github-original.svg"
 import linkedin from "../assets/socials/linkedin-original.svg"
+import tailwindcssLogo from '../assets/logos/tailwindcss.svg';
+import css3Logo from '../assets/logos/css3.svg';
+import html5Logo from '../assets/logos/html5.svg';
+import javascriptLogo from '../assets/logos/javascript.svg';
+import railsPlainLogo from '../assets/logos/rails-plain.svg';
+import rubyOriginalLogo from '../assets/logos/ruby-original.svg';
+import bootstrapOriginalLogo from '../assets/logos/bootstrap-original.svg';
+
 
 export const myProjects = [
     {
@@ -20,32 +28,32 @@ export const myProjects = [
         {
           id: 1,
           name: "HTML",
-          path: "src/assets/logos/html5.svg",
+          path: {html5Logo},
         },
         {
           id: 2,
           name: "CSS",
-          path: "src/assets/logos/css3.svg",
+          path: {css3Logo},
         },
         {
           id: 3,
           name: "Bootstrap",
-          path: "src/assets/logos/bootstrap-original.svg",
+          path: {bootstrapOriginalLogo},
         },
         {
           id: 4,
           name: "Ruby",
-          path: "src/assets/logos/ruby-original.svg",
+          path: {rubyOriginalLogo},
         },
         {
           id: 5,
           name: "Ruby on Rails",
-          path: "src/assets/logos/rails-plain.svg",
+          path: {railsPlainLogo},
         },
         {
           id: 6,
           name: "JavaScript",
-          path: "src/assets/logos/javascript.svg",
+          path: {javascriptLogo},
         },
       ],
     },
