@@ -74,32 +74,32 @@ export const myProjects = [
         {
           id: 1,
           name: "HTML",
-          path: "src/assets/logos/html5.svg",
+          path: {html5Logo},
         },
         {
           id: 2,
           name: "CSS",
-          path: "src/assets/logos/css3.svg",
+          path: {css3Logo},
         },
         {
           id: 3,
           name: "Bootstrap",
-          path: "src/assets/logos/bootstrap-original.svg",
+          path: {bootstrapOriginalLogo},
         },
         {
           id: 4,
           name: "Ruby",
-          path: "src/assets/logos/ruby-original.svg",
+          path: {rubyOriginalLogo},
         },
         {
           id: 5,
           name: "Ruby on Rails",
-          path: "src/assets/logos/rails-plain.svg",
+          path: {railsPlainLogo},
         },
         {
           id: 6,
           name: "JavaScript",
-          path: "src/assets/logos/javascript.svg",
+          path: {javascriptLogo},
         },
       ],
     },
@@ -119,12 +119,12 @@ export const myProjects = [
         {
           id: 1,
           name: "HTML",
-          path: "src/assets/logos/html5.svg",
+          path: {html5Logo},
         },
         {
           id: 2,
           name: "CSS",
-          path: "src/assets/logos/css3.svg",
+          path: {css3Logo},
         },
         {
           id: 3,

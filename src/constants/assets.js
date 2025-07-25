@@ -45,8 +45,8 @@ import codingPov from '../assets/images/coding-pov.png';
 // --- EXPORTS ---
 
 export const socialIcons = {
-    github,
-    linkedin
+    github: github,
+    linkedin: linkedin,
 };
 
 export const techLogos = {

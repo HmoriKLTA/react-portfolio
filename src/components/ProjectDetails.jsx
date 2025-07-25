@@ -1,8 +1,9 @@
 import { motion } from 'motion/react'
 import React from 'react'
 import closeLogo from '../assets/logos/close.svg';
+import { myProjects } from "../constants"
 import { mySocials } from "../constants"
-import { socialIcons } from "../constants"
+
 
 const ProjectDetails = ({
     title,
@@ -46,7 +47,7 @@ const ProjectDetails = ({
                     <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
                         href={code} >
                             Code
-                        <img src={github} alt="" className="size-4" href="" />
+                        <img src="src/assets/socials/github-original.svg" alt="" className="size-4" href="" />
                     </a>
                     {href ? (
                       <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
