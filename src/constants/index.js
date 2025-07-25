@@ -53,7 +53,7 @@ export const myProjects = [
         {
           id: 6,
           name: "JavaScript",
-          path: {javascriptLogo},
+          path: {javascriptLogo },
         },
       ],
     },
