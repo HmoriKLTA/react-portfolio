@@ -17,6 +17,7 @@ import profileImg from '../assets/project-img/TetsuNakamuraPhoto.png'
 import yelpMvpImg from '../assets/project-img/Yelp-mvp.png'
 import pawkitLogoImg from '../assets/project-logo/pawkit-orange-logo.png'
 import homieLogoImg from '../assets/project-logo/android-icon-192x192.png'
+import placeholderImg from '../assets/project-img/placeholder.png'
 
 
 export const myProjects = [
@@ -272,7 +273,7 @@ export const myProjects = [
 
       ],
       href: "https://furniture-rental-app-857715fcf8a3.herokuapp.com/furnitures",
-      logo: '',
+      logo: homieLogoImg,
       code: "https://github.com/HmoriKLTA/furniture-rental-app",
       image: placeholderImg,
       tags: [

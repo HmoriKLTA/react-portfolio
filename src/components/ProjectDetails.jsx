@@ -10,6 +10,8 @@ import javascriptLogo from '../assets/logos/javascript.svg';
 import railsPlainLogo from '../assets/logos/rails-plain.svg';
 import rubyOriginalLogo from '../assets/logos/ruby-original.svg';
 import bootstrapOriginalLogo from '../assets/logos/bootstrap-original.svg';
+import arrowUpLogo from '../assets/logos/arrow-up.svg';
+import githubOriginalLogo from '../assets/logos/github-original.svg';
 
 const skillLogos = {
     "tailwindcss": tailwindcssLogo,
@@ -63,18 +65,18 @@ const ProjectDetails = ({
                     <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
                         href={code} >
                             Code
-                        <img src="src/assets/socials/github-original.svg" alt="" className="size-4" href="" />
+                        <img src={githubOriginalLogo} alt="" className="size-4" href="" />
                     </a>
                     {href ? (
                       <a className="inline-flex items-center gap-1 font-medium cursor-pointer hover-animation"
                         href={href} >
                             Online
-                        <img src="src/assets/logos/arrow-up.svg" alt="" className="size-4" href="" />
+                        <img src={arrowUpLogo} alt="" className="size-4" href="" />
                       </a>
                     ) : (
                       <span className="inline-flex items-center gap-1 font-medium text-gray-400 cursor-not-allowed">
                         Offline
-                        <img src="src/assets/logos/arrow-up.svg" alt="" className="size-4 opacity-50" />
+                        <img src={arrowUpLogo} alt="" className="size-4 opacity-50" />
                       </span>
                     )}
                     </div>
