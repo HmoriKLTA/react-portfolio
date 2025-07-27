@@ -3,7 +3,23 @@ import React from 'react'
 import closeLogo from '../assets/logos/close.svg';
 import { myProjects } from "../constants"
 import { mySocials } from "../constants"
+import tailwindcssLogo from '../assets/logos/tailwindcss.svg';
+import css3Logo from '../assets/logos/css3.svg';
+import html5Logo from '../assets/logos/html5.svg';
+import javascriptLogo from '../assets/logos/javascript.svg';
+import railsPlainLogo from '../assets/logos/rails-plain.svg';
+import rubyOriginalLogo from '../assets/logos/ruby-original.svg';
+import bootstrapOriginalLogo from '../assets/logos/bootstrap-original.svg';
 
+const skillLogos = {
+    "tailwindcss": tailwindcssLogo,
+    "css3": css3Logo,
+    "html5": html5Logo,
+    "javascript": javascriptLogo,
+    "rails-plain": railsPlainLogo,
+    "ruby-original": rubyOriginalLogo,
+    "bootstrap-original": bootstrapOriginalLogo
+};
 
 const ProjectDetails = ({
     title,

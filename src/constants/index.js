@@ -7,6 +7,8 @@ import javascriptLogo from '../assets/logos/javascript.svg';
 import railsPlainLogo from '../assets/logos/rails-plain.svg';
 import rubyOriginalLogo from '../assets/logos/ruby-original.svg';
 import bootstrapOriginalLogo from '../assets/logos/bootstrap-original.svg';
+import wikinimousImg from '../assets/project-img/Wikinimous.png';
+import taskManagerImg from '../assets/project-img/task-manager.png'
 
 
 export const myProjects = [
@@ -23,7 +25,7 @@ export const myProjects = [
       href: "",
       logo: "",
       code: 'https://github.com/HmoriKLTA/rails-wikinimous',
-      image: "src/assets/project-img/Wikinimous.png",
+      image: {wikinimousImg},
       tags: [
         {
           id: 1,
