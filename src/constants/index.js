@@ -25,7 +25,7 @@ export const myProjects = [
       href: "",
       logo: "",
       code: 'https://github.com/HmoriKLTA/rails-wikinimous',
-      image: {wikinimousImg},
+      image: wikinimousImg,
       tags: [
         {
           id: 1,
