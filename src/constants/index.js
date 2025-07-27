@@ -8,9 +8,16 @@ import railsPlainLogo from '../assets/logos/rails-plain.svg';
 import rubyOriginalLogo from '../assets/logos/ruby-original.svg';
 import bootstrapOriginalLogo from '../assets/logos/bootstrap-original.svg';
 import wikinimousImg from '../assets/project-img/Wikinimous.png';
-import taskManagerImg from '../assets/project-img/task-manager.png'
-import { assets } from "../constants";
-
+import taskManagerImg from '../assets/project-img/task-manager.png';
+import pawkitImg from '../assets/project-img/pawkit.png';
+import placeholderImg from '../assets/project-img/placeholder.png'
+import stupidCoachingAppImg from '../assets/project-img/StupidCoachingApp.png'
+import landingPageImg from '../assets/project-img/Australia-landing-page.png'
+import profileImg from '../assets/project-img/TetsuNakamuraPhoto.png'
+import yelpMvpImg from '../assets/project-img/Yelp-mvp.png'
+import furnitureRentalImg from '../assets/project-img/furniture-rental.png'
+import pawkitLogoImg from '../assets/project-logo/pawkit-orange-logo.png'
+import homieLogoImg from '../assets/project-logo/android-icon-192x192.png'
 
 
 export const myProjects = [
@@ -118,7 +125,7 @@ export const myProjects = [
       href: "",
       logo: "",
       code: "https://github.com/HmoriKLTA/rails-stupid-coaching",
-      image: "src/assets/project-img/StupidCoachingApp.png",
+      image: stupidCoachingAppImg,
       tags: [
         {
           id: 1,
@@ -163,7 +170,7 @@ export const myProjects = [
       href: "https://hmoriklta.github.io/landing/",
       logo: "",
       code: "https://github.com/HmoriKLTA/landing",
-      image: "src/assets/project-img/Australia-landing-page.png",
+      image: landingPageImg,
       tags: [
         {
           id: 1,
@@ -193,7 +200,7 @@ export const myProjects = [
       href: "https://hmoriklta.github.io/profile/",
       logo: "",
       code: "https://github.com/HmoriKLTA/profile",
-      image: "src/assets/project-img/TetsuNakamuraPhoto.png",
+      image: profileImg,
       tags: [
         {
           id: 1,
@@ -223,7 +230,7 @@ export const myProjects = [
       href: "",
       logo: "",
       code: "https://github.com/HmoriKLTA/rails-yelp-mvp",
-      image: "src/assets/project-img/Yelp-mvp.png",
+      image: yelpMvpImg,
       tags: [
         {
           id: 1,
@@ -266,9 +273,9 @@ export const myProjects = [
 
       ],
       href: "https://furniture-rental-app-857715fcf8a3.herokuapp.com/furnitures",
-      logo: "src/assets/project-logo/android-icon-192x192.png",
+      logo: homieLogoImg,
       code: "https://github.com/HmoriKLTA/furniture-rental-app",
-      image: "",
+      image: placeholderImg,
       tags: [
         {
           id: 1,
@@ -311,9 +318,9 @@ export const myProjects = [
 
       ],
       href: "https://pawkit-4f8eb10e4858.herokuapp.com/",
-      logo: "src/assets/project-logo/pawkit-orange-logo.png",
+      logo: pawkitLogoImg,
       code: "https://github.com/HmoriKLTA/pawkit",
-      image: "src/assets/project-img/pawkit.png",
+      image: pawkitImg,
       tags: [
         {
           id: 1,
