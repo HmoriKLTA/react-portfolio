@@ -10,7 +10,6 @@ import bootstrapOriginalLogo from '../assets/logos/bootstrap-original.svg';
 import wikinimousImg from '../assets/project-img/Wikinimous.png';
 import taskManagerImg from '../assets/project-img/task-manager.png';
 import pawkitImg from '../assets/project-img/pawkit.png';
-import placeholderImg from '../assets/project-img/placeholder.png'
 import stupidCoachingAppImg from '../assets/project-img/StupidCoachingApp.png'
 import landingPageImg from '../assets/project-img/Australia-landing-page.png'
 import profileImg from '../assets/project-img/TetsuNakamuraPhoto.png'
