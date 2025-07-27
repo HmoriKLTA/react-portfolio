@@ -11,7 +11,7 @@ import railsPlainLogo from '../assets/logos/rails-plain.svg';
 import rubyOriginalLogo from '../assets/logos/ruby-original.svg';
 import bootstrapOriginalLogo from '../assets/logos/bootstrap-original.svg';
 import arrowUpLogo from '../assets/logos/arrow-up.svg';
-import githubOriginalLogo from '../assets/logos/github-original.svg';
+import githubOriginalLogo from '../assets/socials/github-original.svg';
 
 const skillLogos = {
     "tailwindcss": tailwindcssLogo,
