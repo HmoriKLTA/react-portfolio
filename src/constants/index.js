@@ -1,5 +1,5 @@
-import github from "../assets/socials/github-original.svg"
-import linkedin from "../assets/socials/linkedin-original.svg"
+import github from "../assets/socials/github-original.svg";
+import linkedin from "../assets/socials/linkedin-original.svg";
 import tailwindcssLogo from '../assets/logos/tailwindcss.svg';
 import css3Logo from '../assets/logos/css3.svg';
 import html5Logo from '../assets/logos/html5.svg';
@@ -9,6 +9,8 @@ import rubyOriginalLogo from '../assets/logos/ruby-original.svg';
 import bootstrapOriginalLogo from '../assets/logos/bootstrap-original.svg';
 import wikinimousImg from '../assets/project-img/Wikinimous.png';
 import taskManagerImg from '../assets/project-img/task-manager.png'
+import { assets } from "../constants";
+
 
 
 export const myProjects = [
